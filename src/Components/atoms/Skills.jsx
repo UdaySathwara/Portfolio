@@ -25,19 +25,28 @@ const skills = [
     name: "Git",
     logo: "https://img.icons8.com/?size=72&id=20906&format=png",
   },
+  {
+    name: "VS Code",
+    logo: "https://img.icons8.com/?size=72&id=0OQR1FYCuA9f&format=png",
+  },
+  {
+    name: "Firebase",
+    logo: "https://img.icons8.com/?size=72&id=62452&format=png",
+  }
 ];
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-start justify-center text-white md:pr-4">
-      <div className="text-white text-lg font-semibold my-4 md:pt-4 xl:pt-10 pt-4 md:text-xl">
+    <div className="flex flex-col items-start justify-center text-white md:pr-4 font-oxanium">
+      <div className="text-white text-lg font-semibold my-4 md:pt-4 xl:pt-10 pt-4 md:text-xl font-oxanium flex flex-col items-start justify-center gap-2">
         My Skills
+      <span className="text-white text-sm font-medium font-sans">Things I Code With</span>
       </div>
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 lg:gap-4 gap-2">
         {skills.map((skill) => (
           <div
             key={skill.name}
-            className="bg-black/20 rounded-lg justify-center flex flex-col items-center transition-transform transform hover:scale-105 hover:bg-opacity-40"
+            className="bg-black/20 rounded-lg justify-center flex flex-col items-center transition-transform transform hover:scale-105 hover:bg-opacity-40 hover:bg-purple-500/30 hover:shadow-lg shadow-black/30"
           >
             <img alt={`${skill.name} logo`} className="px-3 py-1" src={skill.logo} />
             <span className="mb-2">{skill.name}</span>

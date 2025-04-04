@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/atoms/SideBar";
-import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Home />} />
         <Route path="/sidebar" element={<Sidebar />} />
       </Routes>
     </BrowserRouter>

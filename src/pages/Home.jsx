@@ -9,9 +9,11 @@ function About() {
       className="h-screen w-full flex items-center justify-center bg-black lg:p-12 p-0 md:p-4 md:py-16"
       style={{
         backgroundImage:
-          "url('https://i.pinimg.com/736x/b2/fb/21/b2fb21f206c56acc2007ed7e587d9770.jpg')",
+          "url(https://wallpapers.com/images/hd/starry-night-sky-dark-aesthetic-ro6a8cda8gg0zoil.jpg)",
+        backgroundColor: "#000000",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="w-full h-full bg-white bg-opacity-10 backdrop-blur-lg md:m-8 lg:rounded-2xl border border-white/20 shadow-lg flex items-center justify-center">

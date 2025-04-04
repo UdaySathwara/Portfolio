@@ -5,6 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      audiowide: ["Audiowide", "sans-serif"],
+      oxanium: ["Oxanium", "sans-serif"],
+    },
+    
     extend: {},
   },
   plugins: [],

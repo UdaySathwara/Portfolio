@@ -39,7 +39,7 @@ const EducationSection = () => {
           {educations.map((edu, index) => (
             <div
               key={index}
-              className="bg-black/20 p-4 sm:p-6 rounded-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center w-full shadow-lg hover:scale-[1.02] transition-transform transform hover:bg-opacity-40 hover:bg-purple-500/30 hover:shadow-xl shadow-black/30"
+              className="bg-white/5 p-4 sm:p-6 rounded-sm rounded-tr-md rounded-br-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center w-full shadow-lg hover:scale-[1.01] transition-transform transform-duration-300 hover:bg-opacity-40 hover:bg-white/10 hover:shadow-lg shadow-black/20"
             >
               <div className="flex flex-col sm:flex-row items-start sm:items-center w-full xl:w-[800px]">
                 <img

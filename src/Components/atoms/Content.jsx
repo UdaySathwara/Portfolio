@@ -22,9 +22,9 @@ function Content() {
         <span className="text-white/70 md:text-lg lg:text-xl text-base font-oxanium">
           Let's create something amazing together!
         </span>
-        <button className="px-4 py-2 border border-white text-white bg-transparent hover:bg-purple-500/10 hover:text-purple-200 transition duration-300 rounded-tl-xl rounded-lg w-44 mt-6 rounded-br-3xl font-oxanium font-medium">
-          Download Resume
-        </button>
+        <button className="mt-4 rounded-md rounded-br-xl bg-transparent  text-white hover:bg-white/10 hover:text-white transition duration-300 px-4 py-2 w-44 font-oxanium font-medium backdrop-blur-md shadow-md">
+        Download Resume
+      </button>
         
       {/* Skills Section */}
       <section id="skills" className="">

@@ -53,7 +53,7 @@ const CustomCard = ({ project }) => {
           {project.tools.map((tool, i) => (
             <span
               key={i}
-              className="bg-white/20 text-white px-3 py-1.5 rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-xl text-xs font-medium flex items-center justify-center"
+              className="bg-white/20 text-white px-3 py-1.5 rounded-tr-md rounded-l-md rounded-br-xl text-xs font-medium flex items-center justify-center"
             >
               {tool}
             </span>
@@ -63,7 +63,7 @@ const CustomCard = ({ project }) => {
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 bg-white/20 text-white py-2 px-5 rounded-tl-sm rounded-tr-sm rounded-bl-sm rounded-br-2xl flex items-center hover:bg-white/30 hover:shadow-xl transition-colors relative gap-4 w-36 justify-center"
+          className="mt-4 bg-white/20 text-white py-2 px-5 rounded-l-md rounded-tr-lg rounded-br-2xl flex items-center hover:bg-white/30 hover:shadow-xl transition-colors relative gap-4 w-36 justify-center"
         >
           <div className="text-lg">View Live</div>
           <div>

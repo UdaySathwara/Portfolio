@@ -38,7 +38,7 @@ const skills = [
 const Skills = () => {
   return (
     <div className="flex flex-col items-start justify-center text-white md:pr-4 font-oxanium">
-      <div className="text-white text-lg font-semibold my-4 md:pt-4 xl:pt-10 pt-4 md:text-xl font-oxanium flex flex-col items-start justify-center gap-2">
+      <div className="text-white text-lg font-semibold my-4 pt-8 md:text-xl font-oxanium flex flex-col items-start justify-center gap-2">
         My Skills
         <span className="text-white text-sm font-medium font-sans">
           Things I Code With

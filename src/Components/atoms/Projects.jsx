@@ -5,7 +5,7 @@ const projects = [
   {
     title: "The Lotus Room",
     description:
-      "It's Yoga Website that includes User Login with Firebase, Home, About, Contact Pages, Online Courses, Live Classes, Video Library, Progress Tracking that track your progress, and a Functional Shop with Cart, Product Details and Checkout Page.",
+      "It's Yoga Website that includes User Login with Firebase, Home, About, Contact Pages, Courses, Live Classes, Video Library, Progress Tracking that track your progress, and a Functional Shop with Cart, Product Details and Checkout Page.",
     tools: ["React", "Tailwind CSS", "Firebase"],
     image: TheLotusRoomImage,
     alt: "A variety of colorful smoothies in glasses",
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "The Lotus Room",
     description:
-      "It's Yoga Website that includes User Login with Firebase, Home, About, Contact Pages, Online Courses, Live Classes, Video Library, Progress Tracking that track your progress, and a Functional Shop with Cart, Product Details and Checkout Page.",
+      "It's Yoga Website that includes User Login with Firebase, Home, About, Contact Pages, Courses, Live Classes, Video Library, Progress Tracking that track your progress, and a Functional Shop with Cart, Product Details and Checkout Page.",
     tools: ["React", "Tailwind CSS", "Firebase"],
     image: TheLotusRoomImage,
     alt: "A variety of colorful smoothies in glasses",
@@ -35,7 +35,7 @@ const CustomCard = ({ project }) => {
         <img
           src={project.image}
           alt={project.alt}
-          className="w-full h-[200px] object-cover mb-[30px]"
+          className="w-full h-[200px] object-cover mb-[30px] hover:"
           style={{
             clipPath:
               "polygon(0 0, 100% 0, 100% 100%, 30px 100%, 0 )",
@@ -87,7 +87,7 @@ const Projects = () => {
           Turning Ideas Into Interactive Experiences
         </span>
       </span>
-      <div className="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-4 py-4 pr-4 h-full">
+      <div className="w-full mx-auto grid gap-8 grid-cols-1 sm:grid-cols-1 xl:grid-cols-2 mt-4 py-4 pr-4 h-full">
         {projects.map((project, index) => (
           <CustomCard key={index} project={project} />
         ))}

@@ -3,6 +3,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import resume from "../../assets/Uday_Resume.pdf";
 
 function Content() {
   return (
@@ -25,8 +26,8 @@ function Content() {
         Let's create something amazing together!
       </span>
       <a
-        href="/public/Uday_Resume.pdf"
-        download
+        href={resume}
+        download="resume"
         className="mt-4 inline-block rounded-md rounded-br-xl bg-transparent text-white hover:bg-white/10 hover:text-white transition duration-300 px-4 py-2 w-44 text-center font-oxanium font-medium backdrop-blur-md shadow-md"
       >
         Download Resume

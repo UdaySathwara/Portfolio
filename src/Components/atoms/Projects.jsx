@@ -1,5 +1,6 @@
 import React from "react";
-import TheLotusRoomImage from "../../assets/image.png";
+import TheLotusRoomImage from "../../assets/thelotusroom.png";
+import SaniqueImg from "../../assets/sanique.png";
 
 const projects = [
   {
@@ -12,13 +13,13 @@ const projects = [
     link: "https://thelotusroom.netlify.app/",
   },
   {
-    title: "The Lotus Room",
+    title: "Sanique",
     description:
-      "It's Yoga Website that includes User Login with Firebase, Home, About, Contact Pages, Courses, Live Classes, Video Library, Progress Tracking that track your progress, and a Functional Shop with Cart, Product Details and Checkout Page.",
-    tools: ["React", "Tailwind CSS", "Firebase"],
-    image: TheLotusRoomImage,
+      "Sanique is a modern brochure-style website designed to showcase premium sanitary products in an elegant and user-friendly interface. Unlike a traditional e-commerce platform, Sanique focuses on providing detailed product information, smooth browsing by categories, and a personalized user experience.",
+    tools: ["React", "Tailwind CSS",],
+    image: SaniqueImg,
     alt: "A variety of colorful smoothies in glasses",
-    link: "https://thelotusroom.netlify.app/",
+    link: "https://sanique.netlify.app/",
   },
 ];
 
